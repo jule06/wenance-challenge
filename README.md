@@ -2,13 +2,13 @@ Overview:
     
     *This application was created for a wenance challenge.
     
-    The application consumes an external service that returns the real time bitcon price, saving it in a memory DB,
-    exposing some methods to get this information filtered by timestamps.
+    The application consumes an external service that returns the real time bitcon price, 
+    saving it in a memory DB, exposing some methods to get this information filtered by timestamps.
 
 Endpoints:
     
-    *The application is configured to run under 8080 port. It can be modified by changing the server.port value located 
-    in application.properties
+    *The application is configured to run under 8080 port. It can be modified by changing the server.port value 
+    located in application.properties
 
     Endpoint that retrieves prices at any timestamp sending it as a parameter ("at") or 
     get all prices saved in h2 database.
@@ -16,8 +16,9 @@ Endpoints:
         -localhost:8080/bitcoin/price
         -localhost:8080/bitcoin/price?at=2021-04-07 22:11:40
 
-    Endpoint that returns the bitcoin average price by two parameters "from" and "to", it also brings the a percentage 
-    difference price between this average price and the max bitcoin price value saved these moment.
+    Endpoint that returns the bitcoin average price by two parameters "from" and "to", 
+    it also brings the a percentage difference price between 
+    this average price and the max bitcoin price value saved these moment.
 
         -localhost:8080/bitcoin/price/average?from=2021-04-07 22:11:40&to2021-04-09 23:55:51
 
