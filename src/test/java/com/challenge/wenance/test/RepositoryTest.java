@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.sql.Timestamp;
 import java.util.List;
 
-public class BTCPriceHistoryRepositoryTest extends WenanceBaseTest {
+public class RepositoryTest extends WenanceBaseTest {
 
     @Autowired
     private BtcPriceHistoryRepository btcPriceHistoryRepository;

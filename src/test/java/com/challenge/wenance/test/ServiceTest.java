@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class BTCServiceTest extends WenanceBaseTest{
+public class ServiceTest extends WenanceBaseTest{
 
     @Autowired
     private BTCService btcService;

@@ -13,7 +13,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import java.sql.Timestamp;
 
-public class BTCControllerTest extends WenanceBaseTest{
+public class ControllerTest extends WenanceBaseTest{
 
     private final String BASE_PATH = "/bitcoin/price";
 
