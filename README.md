@@ -31,3 +31,6 @@ Endpoints:
 Run Tests:
     1) Right click on src/main/test/java/com/challenge/wenance/test
     2) Run 'Test' in 'com.challenge.wenance.test'
+    
+
+Developed By Julian Lopez
