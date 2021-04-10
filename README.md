@@ -7,8 +7,8 @@ Overview:
 
 Endpoints:
     
-    *The application is configured to run under 8080 port. It can be modified by changing the server.port value 
-    located in application.properties
+    *The application is configured to run under 8080 port. 
+    It can be modified by changing the server.port value located in application.properties
 
     Endpoint that retrieves prices at any timestamp sending it as a parameter ("at") or 
     get all prices saved in h2 database.
